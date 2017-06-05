@@ -9,3 +9,16 @@ CSV file mpg.csv contains fuel economy data for 234 cars. Find the average hwy m
 3. Write a logic to find average of hwy.
 4. Function should return average for all class of vehicles given in dataset. 
 5. Function should pass all test cases.
+
+
+**Instructions:**
+* Program should be written in file hwy_mpg.py
+* Function name should be calculateAvgHwy.
+* Input 
+      
+      CSV file mpg.csv
+       
+* Expected Output
+
+      Type: Dictionary
+      Value: {'pickup':22.22, 'suv':'11.11','minivan':13.31, ...}
