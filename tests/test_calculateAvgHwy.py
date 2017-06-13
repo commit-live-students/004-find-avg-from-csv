@@ -6,7 +6,7 @@ class TestCalculateAvgHwy(TestCase):
     def test_calculateAvgHwy(self):
         try:
             from hwy_mpg import calculateAvgHwy
-            result = calculateAvgHwy("../files/mpg.csv") # result => A dict object -> {'pickup':16.78, 'suv':'18.1290','minivan':22.363, ...}
+            result = calculateAvgHwy("./files/mpg.csv") # result => A dict object -> {'pickup':16.78, 'suv':'18.1290','minivan':22.363, ...}
 
             self.assertAlmostEqual(16.87878787878788, result["pickup"], places=3)
 
